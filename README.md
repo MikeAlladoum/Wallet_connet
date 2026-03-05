@@ -85,7 +85,7 @@ frontend/
 └── package.json
 ```
 
-## 🛠️ Technologies Utilisées
+##  Technologies Utilisées
 
 | Technologie | Version | Description |
 |-------------|---------|-------------|
@@ -97,7 +97,7 @@ frontend/
 | **Viem** | 2.46.2 | Alternative moderne à ethers.js |
 | **TanStack Query** | 5.90.21 | Gestion de cache et requêtes |
 
-## 🎨 Palette de Couleurs
+##  Palette de Couleurs
 
 Le design utilise un thème **Gold & Black Premium** :
 
@@ -141,7 +141,7 @@ Dans `src/main.jsx` :
 >
 ```
 
-## 🐛 Résolution des Problèmes
+##  Résolution des Problèmes
 
 ### Les boutons WalletConnect/Rainbow ne réagissent pas
 
