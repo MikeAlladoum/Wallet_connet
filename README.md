@@ -1,20 +1,20 @@
-# 🔐 Premium Web3 Dashboard
+#  Premium Web3 Dashboard
 
 Un tableau de bord Web3 moderne et premium pour la connexion de wallet et la gestion d'actifs blockchain.
 
 ![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-7-purple) ![Wagmi](https://img.shields.io/badge/Wagmi-2.19-green) ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-cyan)
 
-## ✨ Fonctionnalités
+ Fonctionnalités
 
-- ✅ **Connexion Multi-Wallet** : MetaMask, WalletConnect, Coinbase Wallet, Rainbow
-- ✅ **Support Multi-Chain** : Ethereum Mainnet & Sepolia Testnet
-- ✅ **Affichage en Temps Réel** : Balance ETH et adresse wallet
-- ✅ **Switch Automatique de Réseau** : Bascule vers Sepolia si nécessaire
-- ✅ **Design Premium** : Thème Gold & Black avec glassmorphism
-- ✅ **UX Optimisée** : Animations fluides, feedback utilisateur, responsive design
-- ✅ **Détection de Wallet** : Guide l'utilisateur si aucune extension n'est installée
+-  **Connexion Multi-Wallet** : MetaMask, WalletConnect, Coinbase Wallet, Rainbow
+-  **Support Multi-Chain** : Ethereum Mainnet & Sepolia Testnet
+-  **Affichage en Temps Réel** : Balance ETH et adresse wallet
+-  **Switch Automatique de Réseau** : Bascule vers Sepolia si nécessaire
+-  **Design Premium** : Thème Gold & Black avec glassmorphism
+-  **UX Optimisée** : Animations fluides, feedback utilisateur, responsive design
+-  **Détection de Wallet** : Guide l'utilisateur si aucune extension n'est installée
 
-## 🚀 Installation
+##  Installation
 
 ### Prérequis
 
@@ -36,7 +36,7 @@ Un tableau de bord Web3 moderne et premium pour la connexion de wallet et la ges
 
 3. **Configurer WalletConnect Project ID**
 
-   🔑 **ÉTAPE CRITIQUE** : Pour que les boutons **WalletConnect** et **Rainbow** fonctionnent :
+    **ÉTAPE CRITIQUE** : Pour que les boutons **WalletConnect** et **Rainbow** fonctionnent :
 
    - Allez sur [cloud.walletconnect.com](https://cloud.walletconnect.com/)
    - Créez un compte gratuit (GitHub OAuth disponible)
@@ -62,7 +62,7 @@ Un tableau de bord Web3 moderne et premium pour la connexion de wallet et la ges
 
    Ouvrez [http://localhost:5173](http://localhost:5173) dans votre navigateur.
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 frontend/
@@ -107,7 +107,7 @@ Le design utilise un thème **Gold & Black Premium** :
 - **Card Background** : `#0a0a0a`
 - **Accents** : Blanc transparent (`white/5`, `white/10`)
 
-## 🔧 Configuration Avancée
+##  Configuration Avancée
 
 ### Ajouter un Nouveau Réseau
 
@@ -145,20 +145,20 @@ Dans `src/main.jsx` :
 
 ### Les boutons WalletConnect/Rainbow ne réagissent pas
 
-1. ✅ Vérifiez que votre **Project ID** est correct dans `.env`
-2. ✅ Assurez-vous que votre extension de wallet est **ouverte**
-3. ✅ Videz le cache du navigateur ou testez en **navigation privée**
-4. ✅ Consultez la console (F12) pour voir les erreurs
+1.  Vérifiez que votre **Project ID** est correct dans `.env`
+2.  Assurez-vous que votre extension de wallet est **ouverte**
+3.  Videz le cache du navigateur ou testez en **navigation privée**
+4.  Consultez la console (F12) pour voir les erreurs
 
 ### Erreur "Project ID not found" (401)
 
-➡️ Votre Project ID n'est pas valide. Créez-en un nouveau sur [cloud.walletconnect.com](https://cloud.walletconnect.com/).
+ Votre Project ID n'est pas valide. Créez-en un nouveau sur [cloud.walletconnect.com](https://cloud.walletconnect.com/).
 
 ### Le solde n'apparaît pas
 
-➡️ Vérifiez que vous êtes connecté au réseau **Sepolia** (testnet). Le mainnet nécessite des vrais ETH.
+ Vérifiez que vous êtes connecté au réseau **Sepolia** (testnet). Le mainnet nécessite des vrais ETH.
 
-## 📦 Build de Production
+##  Build de Production
 
 ```bash
 # Créer le build optimisé
@@ -170,7 +170,7 @@ npm run preview
 
 Les fichiers de production seront dans le dossier `dist/`.
 
-## 🚀 Déploiement
+##  Déploiement
 
 ### Vercel (Recommandé)
 
@@ -185,11 +185,11 @@ Les fichiers de production seront dans le dossier `dist/`.
 3. Publish directory : `dist`
 4. Ajoutez la variable d'environnement dans **Site Settings → Environment Variables**
 
-## 📄 Licence
+##  Licence
 
 Ce projet est open-source et disponible sous licence MIT.
 
-## 🙏 Remerciements
+##  Remerciements
 
 - [RainbowKit](https://www.rainbowkit.com/) pour l'UI de connexion
 - [Wagmi](https://wagmi.sh/) pour les hooks React
