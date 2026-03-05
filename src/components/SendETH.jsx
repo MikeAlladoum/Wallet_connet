@@ -119,7 +119,7 @@ export default function SendETH() {
             disabled={isPending || isConfirming}
             className="flex-1 bg-gradient-to-r from-yellow-400 to-yellow-600 text-black font-bold py-3 px-6 rounded-lg hover:from-yellow-500 hover:to-yellow-700 transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
           >
-            {isPending || isConfirming ? '⏳ Envoi en cours...' : '🚀 Envoyer'}
+            {isPending || isConfirming ? 'Envoi en cours...' : 'Envoyer'}
           </button>
 
           {(isSuccess || error) && (
