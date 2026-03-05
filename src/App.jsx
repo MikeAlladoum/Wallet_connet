@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header.jsx'
+import SendETH from './components/SendETH.jsx'
+import TransactionHistory from './components/TransactionHistory.jsx'
 import './App.css'
 import { ConnectButton } from '@rainbow-me/rainbowkit'
 import { useAccount, useDisconnect, useBalance, useChainId, useSwitchChain } from 'wagmi'
@@ -47,10 +49,10 @@ function App() {
       <Header />
       
       <main className="flex-1 py-12 px-4 flex flex-col items-center justify-center relative z-10">
-        <div className="max-w-md w-full">
+        <div className="max-w-6xl w-full">
           {!isConnected ? (
             /* --- ETAT DÉCONNECTÉ --- */
-            <div className="text-center space-y-8 animate-in fade-in zoom-in duration-700">
+            <div className="text-center space-y-8 animate-in fade-in zoom-in duration-700 max-w-md mx-auto">
               <div className="inline-block p-1 rounded-full bg-gradient-to-r from-yellow-500/50 to-transparent mb-4">
                 <div className="px-4 py-1 rounded-full bg-black text-[10px] font-bold tracking-[0.3em] uppercase text-yellow-500">
                   Secure Access
@@ -96,7 +98,9 @@ function App() {
             </div>
           ) : (
             /* --- ETAT CONNECTÉ --- */
-            <div className="relative group">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              {/* Carte Wallet Info */}
+              <div className="relative group">
               {/* Card Glow */}
               <div className="absolute -inset-0.5 bg-gradient-to-b from-yellow-500/30 to-transparent rounded-[2.5rem] blur opacity-50 group-hover:opacity-100 transition duration-1000"></div>
               
@@ -159,6 +163,15 @@ function App() {
                 >
                   <FaPowerOff className="text-xs" /> Disconnect Wallet
                 </button>
+              </div>
+            </div>
+
+              {/* Composant Envoyer ETH */}
+              <SendETH />
+
+              {/* Historique des Transactions - Full Width */}
+              <div className="lg:col-span-2">
+                <TransactionHistory />
               </div>
             </div>
           )}
