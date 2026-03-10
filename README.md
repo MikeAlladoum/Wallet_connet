@@ -14,6 +14,38 @@ Un tableau de bord Web3 moderne et premium pour la connexion de wallet et la ges
 -  **UX Optimisée** : Animations fluides, feedback utilisateur, responsive design
 -  **Détection de Wallet** : Guide l'utilisateur si aucune extension n'est installée
 
+## 📸 Aperçu de l'Application
+
+### Interface de Connexion
+<div align="center">
+  <img src="docs/screenshots/Capture d'écran 2026-03-05 195638.png" alt="Page de connexion" width="700"/>
+  <p><em>Écran d'accueil avec bouton de connexion premium</em></p>
+</div>
+
+### Connexion Multi-Wallet
+<div align="center">
+  <img src="docs/screenshots/Capture d'écran 2026-03-05 195747.png" alt="Sélection de wallet" width="700"/>
+  <p><em>Choix entre MetaMask, WalletConnect, Coinbase et Rainbow</em></p>
+</div>
+
+### Dashboard Principal
+<div align="center">
+  <img src="docs/screenshots/Capture d'écran 2026-03-05 195947.png" alt="Dashboard connecté" width="700"/>
+  <p><em>Affichage du solde et des informations de compte</em></p>
+</div>
+
+### Interface d'Envoi ETH
+<div align="center">
+  <img src="docs/screenshots/Capture d'écran 2026-03-05 200126.png" alt="Interface d'envoi" width="700"/>
+  <p><em>Formulaire d'envoi de transactions avec validation</em></p>
+</div>
+
+### Historique des Transactions
+<div align="center">
+  <img src="docs/screenshots/Capture d'écran 2026-03-05 215853.png" alt="Historique des transactions" width="700"/>
+  <p><em>Visualisation des transactions avec liens Etherscan</em></p>
+</div>
+
 ##  Installation
 
 ### Prérequis
