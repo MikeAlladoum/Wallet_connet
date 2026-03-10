@@ -40,7 +40,7 @@ Un tableau de bord Web3 moderne et premium pour la connexion de wallet et la ges
   <p><em>Formulaire d'envoi de transactions avec validation</em></p>
 </div>
 
-### Historique des Transactions
+### Historique du deploiement sur vercel
 <div align="center">
   <img src="docs/screenshots/Capture d'écran 2026-03-05 215853.png" alt="Historique des transactions" width="700"/>
   <p><em>Visualisation des transactions avec liens Etherscan</em></p>
